@@ -29,5 +29,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ opera20.surg.sh --token ${{secrets.SURGE_TOKEN}} 
+        run: surge ./ opera20.surge.sh --token ${{secrets.SURGE_TOKEN}} 
                     
